@@ -5,5 +5,6 @@ function log(message)
     console.log(message);
 }
 
-module.exports.log = log;
+// module.exports.log = log; // this exports an object
+module.exports = log; // this exports a function
 //module.export.endpoint=url;
